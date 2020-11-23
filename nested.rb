@@ -57,8 +57,8 @@ def dennis_ritchies_language
         :languages => ["C"]
       }
     }
-return programmer_hash[:dennis_ritchie][:languages]
-
+print programmer_hash[:dennis_ritchie][:languages]
+#can't figure out value over array
 
 end
 
