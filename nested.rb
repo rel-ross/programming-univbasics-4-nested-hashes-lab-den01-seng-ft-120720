@@ -85,8 +85,6 @@ return programmer_hash
 end
 
 def changing_alan
-  # change what Alan Kay is :known_for to the value of the alans_new_info variable. 
-  # return the entire updated hash
 
 	programmer_hash = 
  		{
@@ -103,6 +101,8 @@ def changing_alan
         :languages => ["C"]
       }
     }
+programmer_hash[:alan_kay][:known_for] = "GUI"
+return programmer_hash
 
 end
 
