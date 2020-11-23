@@ -78,7 +78,11 @@ def adding_matz
         :languages => ["C"]
       }
     }
-programmer_hash[:]
+programmer_hash[:yukihiro_matsumoto]
+programmer_hash[:yukihiro_matsumoto][:known_for]
+programmer_hash[:yukihiro_matsumoto][:languages]
+
+return programmer_hash
 end
 
 def changing_alan
